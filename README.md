@@ -18,18 +18,19 @@ The 'Py_Late' Translator GUI Application allows users to input text in one langu
 2. Pip install the argostranslate library:
 ```code
 pip install argostranslate 
-
+```
 3. Git clone the repo:
 ```code
 git clone https://github.com/Crimsolution/Py_Late.git
-
+```
 4. Navigate to the py_late folder and run project.py with python:
 ```code
 python project.py
+```
 or
 ```code
 python3 project.py
-
+```
 
 #### Design Choices:
 The design of the 'Py_Late' Translator GUI Application prioritizes simplicity and ease of use. The decision to use Tkinter for the graphical interface was made due to its beginner friendly documentation and availability in the Python standard library. Tkinter provides a platform-independent solution for creating GUI applications without requiring additional dependencies.
