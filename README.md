@@ -1,5 +1,3 @@
-# Py_Late
-#### Video Demo:  https://youtu.be/sGCaOhh5Jw8
 
 #### Description:
 Py_Late is a simple Python GUI translation application utilizing the Argostranslate backend library. The purpose of this application is to provide a user-friendly interface for translating text between different languages. It's important to note that this project is developed solely for academic purposes and is not intended for production use or long-term maintenance.
@@ -14,6 +12,23 @@ The 'Py_Late' Translator GUI Application allows users to input text in one langu
     project.py: This file contains the main functionality of the GUI application. It utilizes the Tkinter library for creating the graphical user interface. The Window class initializes the application window and sets up various widgets such as textboxes, comboboxes, and buttons for user interaction.
 
     translator.py: This file encapsulates the functionalities related to translation using the Argostranslate backend library. It includes the Translator class, which provides methods for installing language packages, translating text, checking available languages, and uninstalling packages. The class interacts with the Argostranslate library to perform translation tasks.
+
+#### Installation:
+1. Be sure [Python is installed](https://www.python.org/downloads/).
+2. Pip install the argostranslate library:
+```code
+pip install argostranslate 
+
+3. Git clone the repo:
+```code
+git clone https://github.com/Crimsolution/Py_Late.git
+
+4. Navigate to the py_late folder and run project.py with python:
+```code
+python project.py
+or
+```code
+python3 project.py
 
 
 #### Design Choices:
